@@ -23,7 +23,9 @@ Rock crushes scissors. */
 using namespace std;
 
 int main(){
-  // Initialising variables : rock, paper, scissors are integers between 1 and 3
+  
+  // Initialising AI & user
+  // Integers between 1 and 5
   int AI = rand() % 5 + 1;
   int user;
 
